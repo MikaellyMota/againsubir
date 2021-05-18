@@ -8,7 +8,7 @@ app.get("/", function(req,res){
 
 //rota do cadastro de produtos
 app.get("/equipe", function(req,res){
-    res.send("<h1>Equipe:</h1> <br> <h3> Mikaelly Mota 2024760- <br> Ravi Felipe - 2012909 <br> Gabriel Pedrosa - 2024706 <h3>");
+    res.send("<h1> Membros da Equipe:</h1> <br> <h3> Mikaelly Mota 2024760- <br> Ravi Felipe - 2012909 <br> Gabriel Pedrosa - 2024706 <h3>");
 })
 
 app.listen(process.env.PORT || 3000,function(erro){  // cria a aplicaÃ§Ã£o na porta 3000
